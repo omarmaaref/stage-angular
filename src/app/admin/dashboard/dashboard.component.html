@@ -1,0 +1,14 @@
+
+<label for="cars">formation:</label>
+
+<select [(ngModel)]="select" (ngModelChange)="onChange($event)">
+
+  <option *ngFor="let item of formation"  [ngValue]="item">{{item.name}}</option>
+</select>
+<ul>
+  <li *ngFor="let item of review" >
+    <div *ngIf="(select===undefined || item.formation.id === select.id)">
+    {{ item.id }},{{ item.rating }},{{ item.formation.name}}
+    </div>
+  </li>
+</ul>

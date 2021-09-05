@@ -1,0 +1,6 @@
+{
+  "domain": "dev-k068p3pf.eu.auth0.com",
+  "clientId": "6bF7eAoo09UCMxWk2WzEOzuaQStaJRu4",
+  "audience": "https://rate.stage",
+  "serverUrl": "http://localhost:7000"
+}

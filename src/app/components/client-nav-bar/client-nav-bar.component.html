@@ -1,0 +1,33 @@
+<div class="navbar-nav mr-auto">
+  <div class="nav-item">
+    <a
+      routerLink="/"
+      class="nav-link"
+      routerLinkActive="router-link-exact-active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      home-Client
+    </a>
+  </div>
+  <div class="nav-item">
+    <a
+      routerLink="/profile"
+      class="nav-link"
+      routerLinkActive="router-link-exact-active"
+
+    >
+      Profile
+    </a>
+  </div>
+  <div class="nav-item">
+    <a
+      routerLink="/formation"
+      class="nav-link"
+      routerLinkActive="router-link-exact-active"
+    >
+      mes formations
+    </a>
+  </div>
+  <app-auth-nav></app-auth-nav>
+
+</div>
